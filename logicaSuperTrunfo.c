@@ -69,8 +69,8 @@ int main() {
     printf("Carta 1 - São Paulo: %.2f hab/km²\n", D);
     printf("Carta 2 - Rio de Janeiro: %.2f hab/km²\n",D1);
 
-  // Se a densidade populacional de SP for maior que o RJ, a carta 2, vence.
-  // Se a densidade populacional de SP for menor que o RJ, a carta 1, vence.
+   //A carta que tiver a menor densidade populacional, será a vencedora!
+ 
     if (D > D1) 
     {
         printf("Resultado: Carta 2 (RJ), Venceu!");
